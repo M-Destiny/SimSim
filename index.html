@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Go Out With Me UwU</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="center-content">
+    <img src="./assets/teddy-bear-joypixels.gif" alt="Teddy Bears" id="teddy-bears">
+    <div id="message">Congratulations on completing 2 Years !!!!!!!!! <br> Would you like to extend your membership??</div>
+    <div id="buttons">
+        <button class="button" onclick="changeContent()">Yes</button>
+        <div id="noButtonContainer">
+            <button class="button no-button" onmouseenter="moveNoButton()">No</button>
+        </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Go Out With Me UwU</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="center-content">
+    <img src="./assets/teddy-bear-joypixels.gif" alt="Teddy Bears" id="teddy-bears">
+    <div id="message">Congratulations on completing 2 Years! Would you like to extend your membership?</div>
+    <div id="buttons">
+        <button class="button" onclick="changeContent()">Yes</button>
+        <div id="noButtonContainer">
+            <button class="button no-button" onmouseenter="moveNoButton()" onclick="showExtendedMessage()">No</button>
+        </div>
+    </div>
+
+    <div id="extendedMessage" class="hidden">
+        <p>Chhappal naal maar khayega</p>
+        <button class="button" id="bigYesButton" onclick="bigYesButtonClick()">Yes</button>
+    </div>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>

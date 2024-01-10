@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff6b6b, #bfeb9d);
+    overflow: hidden;
+}
+
+#center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+#teddy-bears {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 0.5s infinite alternate;
+    z-index: 1;
+}
+
+#message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.no-button {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-out;
+}
+
+.no-button:hover {
+    transform: translate(calc(randomX() * 50%), calc(randomY() * 50%));
+}
+/* Add styles as needed */
+.hidden {
+    display: none;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateX(-50%) translateY(-100px);
+    }
+    100% {
+        transform: translateX(-50%) translateY(-30px);
+    }
+    
+}
