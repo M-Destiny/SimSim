@@ -4,6 +4,12 @@ body {
     background: linear-gradient(to right, #ff6b6b, #bfeb9d);
     overflow: hidden;
 }
+html{
+    background: linear-gradient(to right, #ff6b6b, #bfeb9d);
+    background-image: url("./assets/Screenshot\ 2024-01-15\ 202020.png");
+
+
+}
 
 #center-content {
     position: absolute;
@@ -71,4 +77,29 @@ body {
         transform: translateX(-50%) translateY(-30px);
     }
     
+}
+/* Add styles as needed */
+.couple-photo {
+    position: absolute;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+
+.photo-animation {
+    animation: photoBounce 1s ease-in-out;
+}
+
+@keyframes photoBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+#bigYesButton{
+    width: 55rem;
+    height: 300px;
+    font-size: 10rem;
+
 }
