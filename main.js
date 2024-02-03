@@ -25,9 +25,7 @@ function randomY() {
 }
 
 function changeContent() {
-    document.getElementById('message').innerText = `Happy First Anniversary, my love! 🎉💑 Time has flown by, and in this incredible journey together, my heart has only grown fonder for you. Today marks a year of laughter, shared dreams, and a love that has deepened with every passing moment. From the first day we met to the countless memories we've created, each step with you has been pure joy.
-
-    Thank you for being my anchor, my confidante, and my greatest supporter. Your love has brought warmth to my days and purpose to my life. Here's to the countless tomorrows we'll face hand in hand, navigating the twists and turns with unwavering love. Happy anniversary, my darling. You are my forever and always – the melody in my heart and the sunshine in my soul. Cheers to the beautiful journey we've embarked upon, and to many more years of love, laughter, and endless happiness. I cherish you more than words can express. 💖🥂`;
+    document.getElementById('message').innerText = `Happy 2nd Anniversary, my sweet Dalbir! ✨💖 As we mark another year of love, giggles, and countless memories, my heart feels like it's dancing in a field of daisies with you by my side. 🌼 You, my dear, are the sparkle in my eye, the twinkle in my smile, and the joy in my soul. 💫 Here's to the giggles we've shared, the dreams we've spun, and the love that grows sweeter with each passing day. 🌟 Thank you for filling my world with endless happiness and love. Cheers to us, my love! 🥂💕`;
     document.getElementById('buttons').style.display = 'none';
     document.getElementById('teddy-bears').style.display = 'none';
 }
@@ -42,9 +40,7 @@ function showExtendedMessage() {
 
 function bigYesButtonClick() {
     // You can add actions for the enlarged "Yes" button click here
-    alert(`Happy First Anniversary, my love! 🎉💑 Time has flown by, and in this incredible journey together, my heart has only grown fonder for you. Today marks a year of laughter, shared dreams, and a love that has deepened with every passing moment. From the first day we met to the countless memories we've created, each step with you has been pure joy.
-
-    Thank you for being my anchor, my confidante, and my greatest supporter. Your love has brought warmth to my days and purpose to my life. Here's to the countless tomorrows we'll face hand in hand, navigating the twists and turns with unwavering love. Happy anniversary, my darling. You are my forever and always – the melody in my heart and the sunshine in my soul. Cheers to the beautiful journey we've embarked upon, and to many more years of love, laughter, and endless happiness. I cherish you more than words can express. 💖🥂`);
+    alert(`Happy 2nd Anniversary, my sweet Dalbir! ✨💖 As we mark another year of love, giggles, and countless memories, my heart feels like it's dancing in a field of daisies with you by my side. 🌼 You, my dear, are the sparkle in my eye, the twinkle in my smile, and the joy in my soul. 💫 Here's to the giggles we've shared, the dreams we've spun, and the love that grows sweeter with each passing day. 🌟 Thank you for filling my world with endless happiness and love. Cheers to us, my love! 🥂💕`);
 }
 function createHearts() {
     const numberOfHearts = 10;
