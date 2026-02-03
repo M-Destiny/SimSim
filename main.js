@@ -25,7 +25,7 @@ function randomY() {
 }
 
 function changeContent() {
-    document.getElementById('message').innerText = `Happy 2nd Anniversary, my sweet Dalbir! ✨💖 As we mark another year of love, giggles, and countless memories, my heart feels like it's dancing in a field of daisies with you by my side. 🌼 You, my dear, are the sparkle in my eye, the twinkle in my smile, and the joy in my soul. 💫 Here's to the giggles we've shared, the dreams we've spun, and the love that grows sweeter with each passing day. 🌟 Thank you for filling my world with endless happiness and love. Cheers to us, my love! 🥂💕`;
+    document.getElementById('message').innerText = `Happy 4 Month Anniversary, my sweet Saloni! ✨💖 As we mark another Month of love, giggles, and countless memories, my heart feels like it's dancing in a field of daisies with you by my side. 🌼 You, my dear, are the sparkle in my eye, the twinkle in my smile, and the joy in my soul. 💫 Here's to the giggles we've shared, the dreams we've spun, and the love that grows sweeter with each passing day. 🌟 Thank you for filling my world with endless happiness and love. Cheers to us, my love! 🥂💕`;
     document.getElementById('buttons').style.display = 'none';
     document.getElementById('teddy-bears').style.display = 'none';
 }
@@ -40,7 +40,7 @@ function showExtendedMessage() {
 
 function bigYesButtonClick() {
     // You can add actions for the enlarged "Yes" button click here
-    alert(`Happy 2nd Anniversary, my sweet Dalbir! ✨💖 As we mark another year of love, giggles, and countless memories, my heart feels like it's dancing in a field of daisies with you by my side. 🌼 You, my dear, are the sparkle in my eye, the twinkle in my smile, and the joy in my soul. 💫 Here's to the giggles we've shared, the dreams we've spun, and the love that grows sweeter with each passing day. 🌟 Thank you for filling my world with endless happiness and love. Cheers to us, my love! 🥂💕`);
+    alert(`Happy 4 month Anniversary, my sweet Saloni! ✨💖 As we mark another Month of love, giggles, and countless memories, my heart feels like it's dancing in a field of daisies with you by my side. 🌼 You, my dear, are the sparkle in my eye, the twinkle in my smile, and the joy in my soul. 💫 Here's to the giggles we've shared, the dreams we've spun, and the love that grows sweeter with each passing day. 🌟 Thank you for filling my world with endless happiness and love. Cheers to us, my love! 🥂💕`);
 }
 function createHearts() {
     const numberOfHearts = 10;
